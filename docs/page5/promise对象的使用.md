@@ -151,7 +151,7 @@ then 方法必须返回一个 promise 对象
 ## 一个最基本的Promise长什么样？
 > 代码如下：
 
-<font face="楷体">**index.js**</font>
+**index.js**
 ~~~
 new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -164,7 +164,7 @@ new Promise((resolve, reject) => {
 })
 ~~~
 
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 value 1
 ~~~
@@ -172,11 +172,11 @@ value 1
 ## 原生的promise它的参数不是函数的时，会发生什么？
 > 代码如下：
 
-<font face="楷体">**index.js**</font>
+**index.js**
 ~~~
 new Promise(1)
 ~~~
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
     constructor(executor){
@@ -187,21 +187,21 @@ class Promise {
     }
 }
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 Promise resolver 1 is not a function
 ~~~
 ## 这是一个最基本的promise
 > 代码如下
 
-<font face="楷体">**index.js**</font>
+**index.js**
 ~~~
 new Promise((resolve, reject) => {
     console.log('早上好！')
         resolve(1)
 })
 ~~~
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
     constructor(executor){
@@ -219,14 +219,14 @@ class Promise {
     }
 }
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 早上好！
 ~~~
 ## 再把上边代码测试一下
 > 代码如下：
 
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
   constructor(executor){
@@ -263,7 +263,7 @@ class Promise {
 }
 module.exports = Promise
 ~~~
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -272,7 +272,7 @@ new Promise((resolve, reject) => {
         resolve(1)
 })
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 早上好！
 ~~~
@@ -280,7 +280,7 @@ new Promise((resolve, reject) => {
 ## 把上边的代码进行优化
 > 优化后的代码如下
 
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
     constructor(executor){
@@ -329,7 +329,7 @@ class Promise {
 }
 module.exports = Promise
 ~~~
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -338,14 +338,14 @@ new Promise((resolve, reject) => {
         resolve(1)
 })
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 早上好！
 ~~~
 ## 测试通过后，下一步then方法
 > 代码如下：
 
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
     constructor(executor){
@@ -413,7 +413,7 @@ class Promise {
 module.exports = Promise
 ~~~
 
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -426,7 +426,7 @@ new Promise((resolve, reject) => {
     console.log('reason',value)
 })
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 早上好！
 value 1
@@ -434,7 +434,7 @@ value 1
 ## 将上边的代码再次进行优化
 > 代码如下：
 
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
     constructor(executor){
@@ -505,7 +505,7 @@ Promise.REJECTED = 'reject'
 
 module.exports = Promise
 ~~~
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -519,7 +519,7 @@ new Promise((resolve, reject) => {
 })
 ~~~
 
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 早上好！
 value 1
@@ -528,7 +528,7 @@ value 1
 ## 先看一下这段代码的执行顺序是什么样的？
 > 代码如下
 
-<font face="楷体">**index.js**</font>
+**index.js**
 ~~~
 console.log('1')
 new Promise((resolve, reject) => {
@@ -542,7 +542,7 @@ new Promise((resolve, reject) => {
 })
 console.log('3')
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 1
 2
@@ -553,7 +553,7 @@ value 1
 ## 在测试文件运行这段代码执行顺序会是什么样？
 > 代码如下
 
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -569,7 +569,7 @@ new Promise((resolve, reject) => {
 })
 console.log('3')
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 1
 2
@@ -582,7 +582,7 @@ value 1
 在promise.js里面添加代码，利用setTimeout,再运行test.js
 > 代码如下：
 
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
     constructor(executor){
@@ -661,7 +661,7 @@ Promise.REJECTED = 'reject'
 
 module.exports = Promise
 ~~~
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -677,7 +677,7 @@ new Promise((resolve, reject) => {
 })
 console.log('3')
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 1
 2
@@ -688,7 +688,7 @@ value 1
 ## 假如在test.js里面抛出一个异常，会是怎么样？
 > 代码如下：
 
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -705,7 +705,7 @@ new Promise((resolve, reject) => {
 })
 console.log('3')
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 1
 3
@@ -715,7 +715,7 @@ reason Error: You write wrong
 ## 假设我们把代码放原生的promise里，会是怎样？
 > 代码如下：
 
-<font face="楷体">**index.js**</font>
+**index.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -732,7 +732,7 @@ new Promise((resolve, reject) => {
 })
 console.log('3')
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 1
 3
@@ -741,7 +741,7 @@ reason Error: You write wrong
 ## 如果是test.js里是异步的会是什么样？
 > 代码如下：
 
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -759,7 +759,7 @@ new Promise((resolve, reject) => {
 })
 console.log('3')
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 1
 3
@@ -784,7 +784,7 @@ hello!
 ## 在promise.js里追加一个状态的判断
 > 代码如下：
 
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
     constructor(executor){
@@ -881,7 +881,7 @@ Promise.REJECTED = 'reject'
 
 module.exports = Promise
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 1
 3
@@ -893,7 +893,7 @@ value 1
 ## 如何实现链式调用
 > 代码如下：
 
-<font face="楷体">**index.js**</font>
+**index.js**
 ~~~
 new Promise((resolve, reject) => {
         resolve(1)
@@ -915,7 +915,7 @@ new Promise((resolve, reject) => {
 }
 )
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 value good1
 ~~~
@@ -925,7 +925,7 @@ value good1
 
 > 代码如下：
 
-<font face="楷体">**index.js**</font>
+**index.js**
 ~~~
 new Promise((resolve, reject) => {
     // throw new Error('You write wrong')
@@ -950,7 +950,7 @@ new Promise((resolve, reject) => {
 }
 )
 ~~~
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
     constructor(executor){
@@ -1072,7 +1072,7 @@ Promise.resolvePromise = function(promise2, x, resolve, reject){}
 
 module.exports = Promise
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 reason Error: use
 ~~~
@@ -1080,7 +1080,7 @@ reason Error: use
 ## 当返回值不是一个普通数值或一个基本类型，会是什么样情况？
 > 代码如下：
 
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -1108,7 +1108,7 @@ new Promise((resolve, reject) => {
 }
 )
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 value Promise {
   value: 1,
@@ -1119,7 +1119,7 @@ value Promise {
   resolve: [Function: bound resolve],
   reject: [Function: bound reject] }
 ~~~
-<font face="楷体" color=#CD2626>**分析结果可知：**</font>
+**分析结果可知：**
 
  当x的值不是基本值的时候，而是promise实例得时候，必须等待这一个promise的时候结束，才能进行进一步执行
 ![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2020/1/19/16fbbeeff141ee0f?w=602&h=327&f=png&s=26170)
@@ -1132,7 +1132,7 @@ value Promise {
 
 我们可以通过代码看一下：
 
-<font face="楷体">**index.js**</font>
+**index.js**
 
 ~~~
 let p1 = new Promise((resolve) => {
@@ -1142,7 +1142,7 @@ let p2 = p1.then(() => {
     return p2
 })
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 TypeError: Chaining cycle detected for promise
 ~~~
@@ -1150,7 +1150,7 @@ TypeError: Chaining cycle detected for promise
 
 ## 在promise.js里面处理一下
 
-<font face="楷体">**promise.js**</font>
+**promise.js**
 ~~~
 class Promise {
     constructor(executor) {
@@ -1324,7 +1324,7 @@ class Promise {
   
   module.exports = Promise
 ~~~
-<font face="楷体">**test.js**</font>
+**test.js**
 ~~~
 const Promise = require('./promise.js')
 
@@ -1355,7 +1355,7 @@ new Promise((resolve, reject) => {
 }
 )
 ~~~
-<font face="楷体">**运行结果：**</font>
+**运行结果：**
 ~~~
 then 2 value: 333
 ~~~

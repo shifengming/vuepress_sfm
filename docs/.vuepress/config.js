@@ -38,7 +38,6 @@ module.exports = {
               'page2/1px边框问题',
               'page2/浮动与定位',
               'page2/垂直水平居中的几种方法',
-              'page2/link与@import区别与选择',
               'page2/面试题'
             ]
           },
