@@ -40,7 +40,7 @@ var a = [1,2,3];
 console.log(a.concat(4, 5));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/9/16c756443823746d?w=366&h=50&f=png&s=11746)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/9/16c756443823746d~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ___
 例子2：
@@ -58,7 +58,7 @@ arr2[1] = "DEF"
 console.log(arr.concat(arr2));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/9/16c7573d1f364a4b?w=512&h=52&f=png&s=14530)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/9/16c7573d1f364a4b~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子3：
@@ -81,7 +81,7 @@ arr3[1] = "pqr"
 console.log(arr.concat(arr2, arr3));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/9/16c757a75488c9e5?w=728&h=54&f=png&s=16856)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/9/16c757a75488c9e5~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### join（）
@@ -97,7 +97,7 @@ arr[1] = "def"
 console.log(arr.join());
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f1129d196187?w=238&h=50&f=png&s=8034)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f1129d196187~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2： 
@@ -110,7 +110,7 @@ arr[1] = "def"
 console.log(arr.join("."));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f313eac82be2?w=158&h=42&f=png&s=7965)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f313eac82be2~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### pop（）
@@ -129,7 +129,7 @@ console.log(arr.pop());
 console.log(arr);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f3cd00ee4d68?w=442&h=136&f=png&s=19781)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f3cd00ee4d68~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### push（）
@@ -149,7 +149,7 @@ console.log(arr.push("jlm"))
 console.log(arr)
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f462305ac2d0?w=592&h=152&f=png&s=22088)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f462305ac2d0~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### reverse（）
@@ -167,7 +167,7 @@ console.log(arr)
 console.log(arr.reverse())
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f4d00afc7af4?w=438&h=98&f=png&s=19777)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f4d00afc7af4~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### shift（）
@@ -186,7 +186,7 @@ console.log(arr.shift())
 console.log(arr)
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f539133157f6?w=428&h=140&f=png&s=20004)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f539133157f6~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### slice（）
@@ -208,7 +208,7 @@ console.log(arr.slice(2,4))
 console.log(arr)
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2020/1/10/16f8e83231a63a5c?w=758&h=132&f=jpeg&s=36072)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/1/10/16f8e83231a63a5c~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -227,7 +227,7 @@ console.log(arr.slice(2,4))
 console.log(arr)
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f662fac9bad4?w=716&h=144&f=png&s=31972)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f662fac9bad4~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### sort（）
@@ -248,7 +248,7 @@ console.log(arr)
 console.log(arr.sort())
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f6eab7d87349?w=730&h=100&f=png&s=26733)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f6eab7d87349~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### splice（）
@@ -270,7 +270,7 @@ arr.splice(2,0, "zzz")
 console.log(arr)
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f7bb32c0cc22?w=836&h=98&f=png&s=27401)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f7bb32c0cc22~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -289,7 +289,7 @@ arr.splice(2,1,"zzz")
 console.log(arr)
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f822fb48be11?w=788&h=114&f=png&s=26648)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f822fb48be11~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子3：
@@ -308,7 +308,7 @@ arr.splice(2,3,"zzz")
 console.log(arr)
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7f882f6022f8b?w=770&h=106&f=png&s=24335)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7f882f6022f8b~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### toSourse（）
@@ -328,7 +328,7 @@ var bill=new employee("Bill Gates","Engineer",1985);
 document.write(bill.toSource());
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7ff865c74d6c2?w=670&h=72&f=png&s=16295)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7ff865c74d6c2~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### toString（）
@@ -345,7 +345,7 @@ arr[2] = "ghi"
 console.log(arr.toString());
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7fa367410fe94?w=268&h=58&f=png&s=8449)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7fa367410fe94~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### toLocaleString（）
@@ -360,7 +360,7 @@ arr[2] = "ghi"
 console.log(arr.toLocaleString());
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7fe7cd6375a19?w=222&h=56&f=png&s=8405)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7fe7cd6375a19~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### unshift（）
@@ -379,7 +379,7 @@ console.log(arr.unshift("zzz"));
 console.log(arr);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7fe6cbe3ebcbf?w=530&h=142&f=png&s=21615)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7fe6cbe3ebcbf~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### valueOf（）
@@ -392,7 +392,7 @@ var arr = new Array(1,2,3)
 console.log(arr.valueOf());
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c7ff21cb4615a3?w=276&h=58&f=png&s=8886)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c7ff21cb4615a3~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ## 数组对象的几种遍历方法
@@ -407,7 +407,7 @@ for (let i = 0; i < arr1.length; i++) {
 }
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c8001aeaabfd56?w=128&h=212&f=png&s=8031)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c8001aeaabfd56~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### 2，优化版的for循环
@@ -421,7 +421,7 @@ for (i = 0, len = arr.length; i < len; i++) {
 }
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c8005758d21ae7?w=84&h=212&f=png&s=7960)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c8005758d21ae7~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 说明：使用临时变量，将长度缓存起来，避免重复获取数组长度，当数组较大时优化效果才会比较明显
 
 ---
@@ -436,7 +436,7 @@ arr.forEach(function (value) {
 })
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c800bdedb6f272?w=142&h=220&f=png&s=8095)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c800bdedb6f272~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### 4，for-in循环
@@ -450,7 +450,7 @@ for(var item in arr){
 }
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c80134d627e3cf?w=124&h=214&f=png&s=7998)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c80134d627e3cf~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### 5，map循环
@@ -464,7 +464,7 @@ arr.map(function (value) {
 })
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c8016c0057dec2?w=126&h=210&f=png&s=8001)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c8016c0057dec2~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ## es6数组新增方法
@@ -483,7 +483,7 @@ console.log(item);
 });
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8aa694144d879?w=96&h=160&f=jpeg&s=9649)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8aa694144d879~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### map（）
@@ -499,7 +499,7 @@ console.log(array);
 ```
 
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8aa947e50628a?w=364&h=98&f=jpeg&s=16343)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8aa947e50628a~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### filter（）
@@ -514,7 +514,7 @@ console.log(temp);
 console.log(array);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8aac71dbc453c?w=384&h=96&f=jpeg&s=12781)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8aac71dbc453c~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### reduce（）
@@ -528,7 +528,7 @@ let total = array.reduce((a, b) => {
 console.log(total);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8aaf6bdaff3e9?w=116&h=50&f=jpeg&s=7775)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8aaf6bdaff3e9~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### some（）
@@ -542,7 +542,7 @@ array.some((item, index, arr) => {
 });
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8ab21bd4a8a12?w=80&h=164&f=jpeg&s=9462)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8ab21bd4a8a12~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### every（）
@@ -556,4 +556,4 @@ let bo = array.every((item, index, arr) => {
 console.log(bo);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8ab482a357550?w=134&h=50&f=jpeg&s=9760)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8ab482a357550~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)

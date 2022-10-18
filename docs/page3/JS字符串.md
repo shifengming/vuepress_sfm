@@ -20,7 +20,7 @@ var n = str.charAt(2)
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c8096352997b0d?w=128&h=56&f=png&s=6945)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c8096352997b0d~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -32,7 +32,7 @@ var n = str.charAt(str.length-1);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c8099f1e66c9d9?w=86&h=52&f=png&s=7097)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c8099f1e66c9d9~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### charCodeAt（）
@@ -48,7 +48,7 @@ var n = str.charCodeAt(0);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c809db69e1a263?w=128&h=48&f=png&s=7345)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c809db69e1a263~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -60,7 +60,7 @@ var n = str.charCodeAt(str.length-1);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c80a0c8a0f8ea0)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c80a0c8a0f8ea0~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### concat（）
@@ -77,7 +77,7 @@ var n = str1.concat(str2);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c80a9775518fbd?w=228&h=56&f=png&s=8309)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c80a9775518fbd~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -91,7 +91,7 @@ var n = str1.concat(str2,str3);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c80abe657e6e42?w=448&h=52&f=png&s=9644)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c80abe657e6e42~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### fromCharCode（）
@@ -106,7 +106,7 @@ var n = String.fromCharCode(65);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c80b04b845b0ae?w=86&h=52&f=png&s=7167)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c80b04b845b0ae~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -117,7 +117,7 @@ var n = String.fromCharCode(72,69,76,76,79);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/11/16c80b3230cba9fc?w=138&h=56&f=png&s=7523)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/11/16c80b3230cba9fc~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### indexOf（）
@@ -133,7 +133,7 @@ var n=str.indexOf("welcome");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c8435367f69dee?w=134&h=68&f=jpeg&s=1230)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c8435367f69dee~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -145,7 +145,7 @@ var n=str.indexOf("e");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c8439876c6b2bc?w=96&h=54&f=jpeg&s=7942)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c8439876c6b2bc~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子3：
@@ -157,7 +157,7 @@ var n=str.indexOf("e",5);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c843dad841541f?w=116&h=60&f=jpeg&s=8748)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c843dad841541f~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### includes （）
@@ -173,7 +173,7 @@ var n = str.includes("world");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c8444e08a5df4b?w=122&h=50&f=png&s=4668)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c8444e08a5df4b~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -185,7 +185,7 @@ var n = str.includes("world", 12);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c8449f0b54de39?w=120&h=48&f=jpeg&s=10572)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c8449f0b54de39~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### lastIndexOf （）
@@ -201,7 +201,7 @@ var n=str.lastIndexOf("runoob");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c845d864b8f4e5?w=106&h=48&f=jpeg&s=9412)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c845d864b8f4e5~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -213,7 +213,7 @@ var n=str.lastIndexOf("runoob", 20);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c8460d4b2b52ea?w=84&h=50&f=jpeg&s=9385)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c8460d4b2b52ea~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### match （）
@@ -229,7 +229,7 @@ var n=str.match(/ain/g);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c8464c146826e2?w=440&h=62&f=png&s=8552)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c8464c146826e2~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -241,7 +241,7 @@ var n=str.match(/ain/gi);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c84688be035d04?w=534&h=68&f=jpeg&s=16549)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c84688be035d04~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### repeat （）
@@ -256,7 +256,7 @@ var str = "Runoob";
 console.log(str.repeat(2));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c8544a3903ad2c?w=218&h=46&f=jpeg&s=2634)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c8544a3903ad2c~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### replace （）
@@ -272,7 +272,7 @@ var n=str.replace("Microsoft","Runoob");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c854b1748bbdd1?w=468&h=50&f=png&s=10404)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c854b1748bbdd1~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -284,7 +284,7 @@ var n=str.replace(/blue/g,"red");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c854fbe3992cbc?w=558&h=50&f=jpeg&s=16740)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c854fbe3992cbc~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子3：
@@ -296,7 +296,7 @@ var n=str.replace(/blue/gi, "red");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c8552af30ff43b?w=554&h=48&f=jpeg&s=14523)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c8552af30ff43b~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### search （）
@@ -312,7 +312,7 @@ var n=str.search("Runoob");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85566c7aa9f1e?w=102&h=38&f=jpeg&s=7571)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85566c7aa9f1e~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -323,7 +323,7 @@ var str="Mr. Blue has a blue house";
 console.log(str.search("blue"));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c855a26d222f3f?w=62&h=48&f=jpeg&s=9826)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c855a26d222f3f~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子3：
@@ -334,7 +334,7 @@ var str="Mr. Blue has a blue house";
 console.log(str.search(/blue/i));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c855e19489a6b3?w=100&h=50&f=jpeg&s=8221)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c855e19489a6b3~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### slice （）
@@ -350,7 +350,7 @@ var n=str.slice(1,5);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c8562e7e5b8a48?w=140&h=56&f=jpeg&s=9128)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c8562e7e5b8a48~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -362,7 +362,7 @@ var n=str.slice(-1);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c856641e57f073?w=98&h=50&f=jpeg&s=7504)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c856641e57f073~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### split （）
@@ -378,7 +378,7 @@ var n=str.split(" ");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c856a1ab1d7847?w=690&h=58&f=jpeg&s=19736)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c856a1ab1d7847~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -390,7 +390,7 @@ var n=str.split(" ",3);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c856d8c14c3ab4?w=412&h=70&f=jpeg&s=5208)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c856d8c14c3ab4~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子3：
@@ -402,7 +402,7 @@ var n=str.split("o");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85704299d3671?w=706&h=52&f=jpeg&s=18726)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85704299d3671~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### startsWith （）
@@ -418,7 +418,7 @@ var n = str.startsWith("Hello");
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85975a2c93c69?w=112&h=42&f=jpeg&s=9421)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85975a2c93c69~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -430,7 +430,7 @@ var n = str.startsWith("world", 6);
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c859a9ee9638e1?w=124&h=44&f=jpeg&s=9385)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c859a9ee9638e1~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### substr （）
@@ -446,7 +446,7 @@ var n=str.substr(2,3)
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c859e4377efdc2?w=106&h=50&f=jpeg&s=9241)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c859e4377efdc2~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 例子2：
@@ -458,7 +458,7 @@ var n=str.substr(2)
 console.log(n);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85a0db7933424?w=182&h=52&f=jpeg&s=10846)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85a0db7933424~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### substring （）
@@ -474,7 +474,7 @@ console.log(str.substring(3));
 console.log(str.substring(3,7));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85a461eae380f?w=184&h=86&f=jpeg&s=11918)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85a461eae380f~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### toLowerCase （）
@@ -489,7 +489,7 @@ var str="Runoob";
 console.log(str.toLowerCase());
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85a9d55bed8f2?w=206&h=56&f=jpeg&s=9536)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85a9d55bed8f2~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### toUpperCase （）
@@ -504,7 +504,7 @@ var str="Runoob";
 console.log(str.toUpperCase());
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85ad5ef4bd585?w=132&h=54&f=jpeg&s=10929)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85ad5ef4bd585~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### trim （）
@@ -519,7 +519,7 @@ var str = "       Runoob        ";
 console.log(str.trim());
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85b0b95922909?w=142&h=56&f=jpeg&s=10145)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85b0b95922909~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### toLocaleLowerCase （）
@@ -535,7 +535,7 @@ var res = str.toLocaleLowerCase();
 console.log(res);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85b54f3b979be?w=118&h=46&f=jpeg&s=10421)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85b54f3b979be~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### toLocaleUpperCase （）
@@ -551,7 +551,7 @@ var res = str.toLocaleUpperCase();
 console.log(res);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85b780c46c39a?w=146&h=50&f=jpeg&s=11144)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85b780c46c39a~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### valueOf （）
@@ -566,7 +566,7 @@ var str="Hello world!";
 console.log(str.valueOf());
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85bc09d61f272?w=214&h=40&f=jpeg&s=10308)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85bc09d61f272~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### toString （）
@@ -582,7 +582,7 @@ var res = str.toString();
 console.log(res);
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/12/16c85bdf1c2d17d2?w=136&h=52&f=jpeg&s=10347)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/12/16c85bdf1c2d17d2~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ## ES6/7中字符串常用的方法
@@ -594,7 +594,7 @@ let s='Hello world!';
 console.log(s.includes('o'));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8928b44a7c321?w=106&h=50&f=jpeg&s=10187)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8928b44a7c321~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 > 支持第二参数，表示开始搜索的位置
@@ -604,7 +604,7 @@ let s='Hello world!';
 console.log(s.startsWith('world',6));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8928b44a7c321?w=106&h=50&f=jpeg&s=10187)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8928b44a7c321~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### startsWith（）
@@ -615,7 +615,7 @@ let s='Hello world!';
 console.log(s.startsWith('Hello'));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8928b44a7c321?w=106&h=50&f=jpeg&s=10187)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8928b44a7c321~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 > 支持第二参数，表示开始搜索的位置
@@ -625,7 +625,7 @@ let s='Hello world!';
 console.log(s.endsWith('Hello',5));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8928b44a7c321?w=106&h=50&f=jpeg&s=10187)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8928b44a7c321~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### endsWith（）
@@ -636,7 +636,7 @@ let s='Hello world!';
 console.log(s.endsWith('!'));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8928b44a7c321?w=106&h=50&f=jpeg&s=10187)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8928b44a7c321~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 > 支持第二参数，表示开始搜索的位置
@@ -646,7 +646,7 @@ let s='Hello world!';
 console.log(s.includes('Hello',6));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c893121220cdf2?w=120&h=52&f=jpeg&s=10594)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c893121220cdf2~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### repeat（）
@@ -658,7 +658,7 @@ console.log('a'.repeat(0));
 console.log('a'.repeat(2.6));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8970005cdb767?w=196&h=126&f=jpeg&s=10632)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8970005cdb767~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 注意：
 
@@ -684,7 +684,7 @@ console.log('a'.padEnd(5, 'cd'));
 console.log('a'.padEnd(4, 'cd'));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c898ae99a610a8?w=168&h=164&f=jpeg&s=17183)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c898ae99a610a8~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 > 如果原字符串的长度，等于或大于最大长度，则字符串补全不生效，返回原字符串
@@ -694,7 +694,7 @@ console.log('aaa'.padStart(2, 'cd'));
 console.log('aaa'.padEnd(2, 'cd'));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c8994e66e7ea82?w=142&h=88&f=png&s=4803)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c8994e66e7ea82~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 > 用来补全的字符串与原字符串，两者的长度之和超过了最大长度，则会截去超出位数的补全字符串
@@ -703,7 +703,7 @@ console.log('aaa'.padEnd(2, 'cd'));
 console.log('abc'.padStart(10, '0123456789'));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c89996c3adc64e?w=210&h=50&f=jpeg&s=10477)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c89996c3adc64e~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 > 如果省略第二个参数，默认使用空格补全长度
@@ -713,7 +713,7 @@ console.log('a'.padStart(4));
 console.log('a'.padEnd(4));
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c899ca13987b79?w=134&h=88&f=jpeg&s=8983)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c899ca13987b79~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 ---
 ### 模板字符串
@@ -724,4 +724,4 @@ let temps="abc"
 console.log(`ABC is ${temps}`)
 ```
 运行结果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/13/16c89a6e68848506?w=204&h=52&f=jpeg&s=11050)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/13/16c89a6e68848506~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)

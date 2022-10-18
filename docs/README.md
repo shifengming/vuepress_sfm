@@ -1,7 +1,7 @@
 ---
 home: true # 标记此页面是否为首页
 lang: zh-CN # 表示本页面的语言为zh-CN(简体中文)
-heroText: 石小明的技术博客 # 首页的标题内容
+heroText: 技术博客 # 首页的标题内容
 heroImage: /home.jpg # 首页的标题图片，其中全路径为docs/.vuepress/public/logo.jpg，默认去public目录下找静态资源
 actionText: Get Started → # 首页跳转按钮的内容
 actionLink: /page1/ # 页跳转按钮挑战的路径，其中全路径为docs/chapterx/readme.md，默认readme命名的文件可以省略不写链接的后面内容，省略后的链接如上

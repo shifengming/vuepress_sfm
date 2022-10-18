@@ -1,1 +1,0 @@
-# bind、call、apply用法及区别

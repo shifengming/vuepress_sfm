@@ -2,7 +2,7 @@
 ## 生命周期介绍</font>
 简单说就是一个组件从开始到最后消亡所经历的各种状态，就是一个组件的生命周期
 ## vue的生命周期图
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/6/16c65f1e4f5cdde4?w=1200&h=3039&f=png&s=50021)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/6/16c65f1e4f5cdde4~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 ## beforeCreate（创建前）
 > beforeCreate（初始化页面前）
 
@@ -166,10 +166,10 @@
 ```
 页面运行效果
 
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/7/16c6abe45528908b?w=814&h=1098&f=png&s=119905)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/7/16c6abe45528908b~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 点击change的效果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/7/16c6ac036f655af3?w=1042&h=1478&f=png&s=203426)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/7/16c6ac036f655af3~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
 
 点击destroy的效果
-![cmd-markdown-logo](https://user-gold-cdn.xitu.io/2019/8/7/16c6ac0abe416945?w=1278&h=1638&f=png&s=242574)
+![cmd-markdown-logo](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/8/7/16c6ac0abe416945~tplv-t2oaga2asx-zoom-in-crop-mark:3024:0:0:0.awebp)
